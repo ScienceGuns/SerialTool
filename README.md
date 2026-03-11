@@ -21,7 +21,7 @@ Currently supported values:
 }
 ```
 
-You can make sure you have the latest product model list up to date via `serialtool update` using the data URL in the example JSON above.
+You can make sure you have the latest product model list via `serialtool update` using the data URL in the example JSON above.
 
 The "Universal Serial Number" Pattern
 -------------------------------------
