@@ -44,7 +44,7 @@ jobs:
           echo "PR version: $version"
           echo "::set-output name=pr_version::$version"
       - name: Checkout target branch code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.base_ref }}
       - name: Get version from target branch
